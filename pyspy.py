@@ -9,8 +9,7 @@ from time import *
 import time
 import threading
 
-path = os.path.dirname(os.path.realpath(__file__))
-file = path,'/track.json'
+file = '/home/pi/pyspy/track.json'
 
 gpsd = None #seting the global variable
  
