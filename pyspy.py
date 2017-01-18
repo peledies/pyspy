@@ -1,4 +1,4 @@
-#! /usr/bin/python
+#!/usr/bin/python
 # Written by Deac Karns
 # License: GPL 2.0
 
@@ -9,7 +9,8 @@ from time import *
 import time
 import threading
 
-file = '/home/pi/track.json'
+path = os.path.dirname(os.path.realpath(__file__))
+file = path,'/track.json'
 
 gpsd = None #seting the global variable
  
